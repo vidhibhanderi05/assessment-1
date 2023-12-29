@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>
+        body
+        {
+           width: 100%;
+           height: auto;
+           margin: 0;
+           padding: 0;
+           background-color: rgb(210, 210, 210); 
+        }
+        h1
+        {
+            font-size: 35px;
+            color: rgb(5, 29, 118);
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            margin-left: 33%;
+        }
+        input,textarea,select 
+        {
+            width: 25%;
+            height: auto;
+            padding: 8px;
+            margin: 1%;
+            margin-left: 37%;
+        }
+        label
+        {
+            width: 250px;
+            height: auto;
+            padding: 5px;
+            margin: 1%;
+            margin-left: 37%;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        input[type="submit"]
+        {
+            width: 220px;
+            height: auto;
+            background-color: rgb(82, 59, 210);
+            border: none;
+            color: white;
+            padding: 8px;
+            font-size: 20px;
+            border-radius: 5px;
+            margin-left: 41%;
+        }
+    </style>
+</head>
+<body>
+    <h1>student Registration Form</h1>
+    <hr style="width: 33%; border: solid 1px gray;">
+    
+    <form>
+        <label>First Name:</label>
+        <input type="text" name=" First Name" placeholder="Enter your first name " >
+        
+        <label>Last Name:</label>
+        <input type="text" name="Last Name" placeholder="Enter your last name " >
+       
+        <label>Email:</label>
+        <input type="text" name="Email" placeholder="it should contain @ " >
+       
+        <label>Mobile:</label>
+        <input type="text" name="Moblie" placeholder="only 10 digits are allowed " >
+       
+        <label>Gender:</label>
+        <input  type="radio" name="text" placeholder="Male" style="width:19%;"> Male
+        <input type="radio" name="text" placeholder="Female" style="width:19%;"> Female
+        
+        <label>Date of Birth:</label>
+        <input type="date" name="dob" placeholder="Date" >
+       
+        <label>Address:</label>
+        <textarea name="address"" cols="50" rows="8" ></textarea>
+        
+        <label>city:</label>
+        <input type="text" name="city" >
+        
+        <label>Area PIN:</label>
+        <input type="text" name="Pincode number" >
+        
+        <label>State:</label>
+        <input type="text" name="state">
+       
+        <label>Qualification:</label>
+       
+        <select name="Qualification" style="color: rgba(41, 8, 232, 0.719); width:26.5%;">
+            <option value="">Select Qualification:</option>
+            <option value="1">Commerce</option>
+            <option value="2">science</option>
+            <option value="3">Diploma</option>
+            <option value="4">Arts</option>
+        </select>
+       
+        <label>Specialization:</label>
+        <input type="checkbox"  name="text" placeholder="computer science" style="width:25%; margin-left: 28%" > computer science 
+        
+        <input type="checkbox" name="text" placeholder=" Information Technology" style="width:25%; margin-left: 28%"> Information Technology
+       
+        <input type="checkbox" name="text" placeholder="Computer Architecture" style="width:25%; margin-left: 28%"> Computer Architecture
+
+        <input type="checkbox" name="text" placeholder="Tele Communiction" style="width:25%; margin-left: 28%"> Tele Communiction
+
+        <label>Password:</label>
+        <input type="text" name="Password:" >
+        <br>
+        <input type="submit" name="registered" value="registered">
+    </select>
+    </form>
+</body>
+</html>
